@@ -45,9 +45,13 @@
             text-decoration: none;
             text-shadow: 1px 1px 2px #111;
         }
+        .menu nav ul li a.active,
         .menu nav ul li a:hover {
             color: #da6666;
             background: rgba(255,255,255, 0.1);
+        }
+        .menu nav ul li a.active{
+            cursor: default;
         }
         
         .header-image{
@@ -62,7 +66,7 @@
             <nav>
                 <ul class="horizontal">
                     <li><a href="#">Lorem ipsum</a></li>
-                    <li><a href="#">Repudiandae corrupti!</a></li>
+                    <li><a class="active" href="#">Repudiandae corrupti!</a></li>
                     <li><a href="#">Quae temporibus</a></li>
                     <li><a href="#">Sapiente vitae</a></li>
                     <li><a href="#">Iure molestiae</a></li>
